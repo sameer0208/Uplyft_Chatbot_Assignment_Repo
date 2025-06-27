@@ -56,6 +56,7 @@ npm start
 The frontend will be available at http://localhost:3000
 
 🖥️ How It Works
+
 Users can log in with the credentials created in the database (testuser / 1234).
 After login, users can chat with the bot by typing queries such as:
 Show me laptops
@@ -64,6 +65,7 @@ I want a MacBook
 The chatbot parses the message, queries matching products, and returns recommendations with images and prices.
 
 🧠 Project Highlights
+
 Full-stack integration: Seamless communication between React and Flask.
 
 Dynamic recommendations: Products are fetched and filtered in real time.
@@ -92,6 +94,7 @@ Product Cards:
 ![image](https://github.com/user-attachments/assets/7849469b-6d7b-4376-ad13-49d554c871d7)
 
 📝 Potential Challenges & Solutions
+
 CORS issues: Resolved using Flask-CORS.
 
 Product filtering logic: Implemented keyword parsing with fallback responses.
@@ -101,6 +104,7 @@ UI responsiveness: Adjusted layouts with Bootstrap grid and media queries.
 Data persistence: Used localStorage to save chat history.
 
 📄 License
+
 This project was developed as part of the Uplyft assignment.
 
 👤 Author & Contact
