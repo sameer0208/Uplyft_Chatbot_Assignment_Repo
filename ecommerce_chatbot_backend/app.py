@@ -47,14 +47,14 @@ def chat():
 
     detected_category = next((cat for key, cat in category_map.items() if key in message), None)
 
-    # 🔍 Extract brand (optional simple match)
+    # Extract brand
     brands = ["hp", "dell", "lenovo", "asus", "macbook", "acer", "iphone", "samsung", "oneplus", "redmi", "realme", "vivo"]
     detected_brand = next((brand for brand in brands if brand in message), None)
 
-    # 🔍 Check if sorting requested
+    # Check if sorting requested
     sort_by_price = "sort" in message and "price" in message
 
-    # 🔍 Basic pagination simulation: page=1 always (can extend later)
+    # Pagination
     page = 1
     page_size = 3
     offset = (page - 1) * page_size

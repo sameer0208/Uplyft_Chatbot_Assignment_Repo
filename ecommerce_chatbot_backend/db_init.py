@@ -5,7 +5,6 @@ import random
 
 fake = Faker()
 
-# Define categories and images
 categories = ['Mobiles', 'Laptops', 'Books', 'Textiles']
 images = {
     'Mobiles': [
@@ -30,7 +29,6 @@ with app.app_context():
     db.drop_all()
     db.create_all()
 
-    # 🔹 Add realistic laptops
     laptops = [
         "HP Pavilion Laptop", "Dell Inspiron Laptop", "Lenovo IdeaPad Slim",
         "Asus VivoBook 15", "Acer Aspire 7", "MacBook Air M1", "MacBook Pro M2"
@@ -100,4 +98,4 @@ with app.app_context():
     db.session.add(User(username='testuser', password='1234'))
 
     db.session.commit()
-    print("✅ Database seeded with 120+ realistic and randomized mock products.")
+    print("Database seeded with 120+ realistic and randomized mock products.")
