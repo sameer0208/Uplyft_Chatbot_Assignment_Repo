@@ -1,4 +1,5 @@
 🛍️ E-commerce Chatbot – Uplyft Assignment
+
 This repository contains the complete source code for an E-commerce Chatbot built as part of the Uplyft assignment. The project showcases a full-stack web application with a Flask backend and a React frontend, enabling users to log in and chat with a bot that recommends products dynamically.
 
 📂 Project Structure
