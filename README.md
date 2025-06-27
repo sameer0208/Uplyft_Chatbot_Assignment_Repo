@@ -75,13 +75,17 @@ Clean UI: Responsive and styled with React Bootstrap.
 Mock Data: 120+ products generated using Faker.
 
 📸 Screenshots
+
 Login Page:
+
 ![image](https://github.com/user-attachments/assets/caa61ca2-ba7d-4e02-a620-c40e635df995)
 
 Chatbot Chat Window:
+
 ![image](https://github.com/user-attachments/assets/ccf6d37e-d3ea-47f6-875a-3c9f81f4270b)
 
 Product Cards:
+
 ![image](https://github.com/user-attachments/assets/0d65d79a-f803-41dc-a78a-c614793a19e5)
 
 🧩 Architecture Diagram
@@ -100,8 +104,11 @@ Data persistence: Used localStorage to save chat history.
 This project was developed as part of the Uplyft assignment.
 
 👤 Author & Contact
+
 SAYYED SAMEER BASIR
+
 sayyedsameerbasir0208@gmail.com
+
 https://www.linkedin.com/in/sayyed-sameer-basir-6b3195215/
 
 
